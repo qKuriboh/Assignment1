@@ -17,9 +17,7 @@ public class PlayerMovement : MonoBehaviour
     void OnMove(InputValue value)
     {
         Vector2 movementDir = value.Get<Vector2>();
-        // rb.AddForce(movementDir * speed, ForceMode2D.Impulse);
-        // rb.AddFroce(movementDir*boostModifier, ForceMode2D.Impluse);
-
+       
         inputDirection = movementDir;
     }
 
